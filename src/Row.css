@@ -1,0 +1,31 @@
+.row_parent_container {
+  margin-left: 5px;
+  color: white;
+}
+
+.card__image {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin: 5px;
+}
+
+.card__container {
+  display: flex;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-x: scroll;
+}
+
+.card__container::-webkit-scrollbar {
+  display: none;
+}
+
+.card__image:hover {
+  transform: scale(1.08);
+}
+
+.large__card {
+  max-height: 250px;
+}
